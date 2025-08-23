@@ -13,12 +13,12 @@ def create_graph(data):
 
 # Define Probability Distribution and Data
 data = (
-    ("Math", "Physics", {"weight": 0.20}),
-    ("Math", "Math", {"weight": 0.65}),
-    ("Math", "Chemistry", {"weight": 0.10}),
+    ("Math", "Physics", {"weight": 0.15}),
+    ("Math", "Math", {"weight": 0.75}),
+    ("Math", "Chemistry", {"weight": 0.05}),
     ("Math", "Biology", {"weight": 0.05}),
-    ("Physics", "Math", {"weight": 0.45}),
-    ("Physics", "Physics", {"weight": 0.45}),
+    ("Physics", "Math", {"weight": 0.55}),
+    ("Physics", "Physics", {"weight": 0.35}),
     ("Physics", "Chemistry", {"weight": 0.05}),
     ("Physics", "Biology", {"weight": 0.05}),
     ("Chemistry", "Math", {"weight": 0.10}),
